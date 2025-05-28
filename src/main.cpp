@@ -40,7 +40,7 @@ int main()
         if (game.isGameOver)
         {
             DrawTextEx(font, "GAME OVER", {320, 450}, 38, 2, WHITE);
-            DrawTextEx(font, "Press R to Restart", {250, 500}, 20, 2, WHITE);
+            DrawTextEx(font, "Press R\nto Restart", {350, 500}, 20, 2, WHITE);
         }
         DrawRectangleRounded({320, 55, 170, 60}, 0.3, 6, lightBlue);
 
